@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These two functions save an inverse of a function in a cache. 
+
 setwd("~/GitHub/ProgrammingAssignment2")
 ## this function saves the inverse of a matrix for the future
 
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function created the inverse of the cached matrix created in the above function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
